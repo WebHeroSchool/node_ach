@@ -1,0 +1,25 @@
+{
+  "name": "node_ach",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebHeroSchool/node_ach.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebHeroSchool/node_ach/issues"
+  },
+  "homepage": "https://github.com/WebHeroSchool/node_ach#readme",
+  "dependencies": {
+    "chance": "^1.1.7",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1"
+  }
+}
