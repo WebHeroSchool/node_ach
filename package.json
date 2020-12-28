@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/WebHeroSchool/node_ach#readme",
   "dependencies": {
+    "async": "^3.2.0",
+    "async-each-series": "^1.1.0",
     "chance": "^1.1.7",
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.17.1"
