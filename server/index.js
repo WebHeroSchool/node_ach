@@ -1,5 +1,9 @@
 const { response } = require('express');
+require('dotenv').config()
+
 const http = require('http');
+
+const port = process.env.PORT;
 
 http.createServer((request, response)=>{
     
@@ -19,11 +23,11 @@ http.createServer((request, response)=>{
             break
     }
     response.end()
-}).listen(3000, (error) => {
+}).listen(port, (error) => {
     if (error) {
         console.log(error);
     }else {
-        console.log('API running on localhost:3000')
+        console.log('API running on localhost:' + port)
     }
     
 })
