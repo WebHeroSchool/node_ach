@@ -10,6 +10,10 @@ http.createServer((request, response)=>{
         case ('/books'):
             response.write('Books page');
             break
+        case ('/post_info'):
+            request.pipe(process.stdout)
+            response.end()
+            break
         default:
             response.write('not found');
             break
